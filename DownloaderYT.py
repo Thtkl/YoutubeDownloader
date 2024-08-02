@@ -21,7 +21,7 @@ def on_download():
     download_path = get_desktop_path()
 
     if video_var.get() and audio_var.get():
-        messagebox.showerror("Error", "Select either video or audio, not both.")
+        messagebox.showerror("Error", "Select either video or audio not both.")
         return
 
     if not video_var.get() and not audio_var.get():
